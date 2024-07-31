@@ -45,7 +45,7 @@ body{
     overflow: auto;
 }
 .animalcard{
-    height: 33vh;
+    height: 200px;
     flex-basis: 23%;
     min-width: 220px;
     border-radius: 20px;
@@ -151,6 +151,7 @@ a:hover{
         overflow: auto;
     }
     .animalcard{
+        height: 250px;
         min-width: 250px;
     }
     .animalName{
