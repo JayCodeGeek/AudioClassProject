@@ -1,0 +1,159 @@
+::-webkit-scrollbar{
+    width: 10px;
+    height: 5px;
+    border-radius: 20px;
+    background: gold;
+}
+
+body{
+    background-color: #E68369;
+    font-family: "Mate SC", serif;
+}
+.title{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.title p{
+    font-size: 2rem;
+    margin: 0;
+    font-weight: bold;
+    position: relative;
+}
+.title p::after{
+    content: "";
+    position: absolute;
+    height: 5px;
+    width: 100%;
+    background: linear-gradient(45deg, orange,gold,yellow);
+    left: 0%;
+    bottom: 0%;
+    border-radius: 10px;
+}
+.main{
+    height: 70vh;
+    margin-top: 20px;
+}
+.animals{
+    border-radius: 2px solid black;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 3%;
+    overflow: auto;
+}
+.animalcard{
+    height: 33vh;
+    flex-basis: 23%;
+    min-width: 220px;
+    border-radius: 20px;
+}
+.Lion{
+    background: url("./Assets/Lion.jpeg");
+    background-size:  100% 100%;
+    color: gold;
+}
+.Monkey{
+    background: url("./Assets/Monkey.jpeg");
+    background-size:  100% 100%;
+}
+.Cat{
+    background: url("./Assets/Cat.jpeg");
+    background-size:  100% 100%;
+}
+.Cow{
+    background: url("./Assets/Cow.jpeg");
+    background-size:  100% 100%;
+}
+.Eagle{
+    background: url("./Assets/Eagle.jpeg");
+    background-size:  100% 100%;
+}
+.Dog{
+    background: url("./Assets/Dog.jpeg");
+    background-size:  100% 100%;
+}
+.Duck{
+    background: url("./Assets/Duck.jpeg");
+    background-size:  100% 100%;
+}
+.Elephant{
+    background: url("./Assets/Elephant.jpeg");
+    background-size:  100% 100%;
+}
+.Goat{
+    background: url("./Assets/Goat.jpeg");
+    background-size:  100% 100%;
+}
+.Horse{
+    background: url("./Assets/Horse.jpeg");
+    background-size:  100% 100%;
+}
+.Peacock{
+    background: url("./Assets/Peacock.jpeg");
+    background-size:  100% 100%;
+}
+.Sheep{
+    background: url("./Assets/Sheep.jpeg");
+    background-size:  100% 100%;
+}
+.Whale{
+    background: url("./Assets/Whale.jpeg");
+    background-size:  100% 100%;
+}
+.Owl{
+    background: url("./Assets/Owl.jpeg");
+    background-size:  100% 100%;
+}
+.RattleSnake{
+    background: url("./Assets/RattleSnake.jpeg");
+    background-size:  100% 110%;
+    background-position: 0 10px;
+    background-repeat: repeat;
+}
+.Wolf{
+    background: url("./Assets/Wolf.jpeg");
+    background-size:  100% 100%;
+}
+
+.animalName{
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+.footer{
+    margin-top: 10px;
+}
+.footer p{
+    text-align: center;
+    margin: 0;
+    font-size: 1.7rem;
+}
+a{
+    color: black;
+}
+a:hover{
+    font-weight: bold;
+}
+@media screen and (max-width:768px) {
+    .title p{
+        font-size: 1.5rem;
+    }
+    .animals{
+        border-radius: 2px solid black;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 3%;
+        overflow: auto;
+    }
+    .animalcard{
+        min-width: 250px;
+    }
+    .animalName{
+        font-size: 1.2rem;
+    }
+}
