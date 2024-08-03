@@ -49,11 +49,15 @@ body{
     flex-basis: 23%;
     min-width: 220px;
     border-radius: 20px;
+    box-shadow: 10px 10px black;
+}
+.animalcardlight{
+    opacity: 0.5;
 }
 .Lion{
     background: url("./Assets/Lion.jpeg");
     background-size:  100% 100%;
-    color: gold;
+    color: black;
 }
 .Monkey{
     background: url("./Assets/Monkey.jpeg");
