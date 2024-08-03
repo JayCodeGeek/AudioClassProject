@@ -11,7 +11,6 @@ for (i = 0; i < animalLength; i++) {
     });
 }
 
-
 function animalSound(animalName) {
   switch (animalName) {
     case "Lion":
@@ -72,7 +71,7 @@ function animalSound(animalName) {
       var sound = new Audio("./Sound/Owl.mp3");
       sound.play();
       break;
-    case "Rattle Snake":
+    case "Rattle_Snake":
       var sound = new Audio("./Sound/RattleSnake.mp3");
       sound.play();
       break;
