@@ -95,3 +95,4 @@ function animalClick(animalName) {
       .classList.remove("animalcardlight");
   }, 100);
 }
+
